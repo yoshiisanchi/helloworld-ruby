@@ -5,6 +5,6 @@ port = ENV["PORT"] || "8080"
 set :port, port
 
 get "/" do
-  name = ENV["NAME"] || "iTICKET"
+  name = ENV["NAME"] || "iTICKET2"
   "Hello #{name}!"
 end
